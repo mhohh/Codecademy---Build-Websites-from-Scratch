@@ -1,0 +1,501 @@
+html {
+  font-family: "Helvetica", sans-serif;
+  font-size: 16px;
+}
+
+header {
+  align-items: center;
+  display: flex;
+  height: 4rem;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.logo {
+  align-items: center;
+  display: flex;
+  flex-grow: 1;
+  padding-left: 1.5rem;
+}
+
+.logo img {
+  height: 4rem;
+  width: auto;
+}
+
+.logo .colmar .academy {
+  height: 2rem;
+  margin-left: 1.5rem;
+}
+
+.colmar {
+  font-size: 2rem;
+  color: #555;
+  font-weight: bold;
+}
+
+.academy {
+  font-size: 2rem;
+  color: grey;
+}
+
+header nav {
+  padding-right: 1rem;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  display: inline;
+  margin: 0 1rem;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #555;
+  font-size: 1.25rem;
+}
+
+ .mobile-menu ul li {
+  display: none;
+}
+
+#introduction {
+  display: flex;
+  background-color: lightgrey;
+  align-items: center;
+}
+
+#introduction .column-right {
+  align-self: center;
+}
+
+.banner {
+  display: flex;
+  position: relative;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.column-right {
+  display: flex;
+  flex-direction: column;
+  padding-top: 2rem;
+  width: 40%;
+}
+
+.column-right .column-text {
+  margin-bottom: 2rem;
+  font-size: 4rem;
+}
+
+#introduction h1 {
+  font-size: 2.8rem;
+  font-weight: bold;
+  font-weight: 600;
+  line-height: 3.5rem;
+}
+
+#introduction h2 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  font-weight: bold;
+  line-height: 2rem;
+  letter-spacing: .10rem;
+}
+
+.button {
+  background-color: #555;
+  width: 80%;
+  text-align: center;
+  padding: 0.8rem 0;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.banner2 {
+  display: flex;
+  position: relative;
+}
+
+.column-left {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 1.5rem;
+  width: 60%;
+}
+
+#information .image-content {
+  padding-bottom: 2rem;
+}
+
+.image-content {
+  overflow: hidden;
+}
+
+.mobile-image-content {
+  display: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.content h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 2.5rem;
+}
+
+#information .column-right {
+  border-left: 1px solid lightgrey;
+}
+
+#information .column-left p {
+  padding-top: 1.5rem;
+}
+
+p {
+  font-size: 1.2rem;
+  font-weight: 450;
+  line-height: 1.5rem;
+}
+
+.author {
+  padding: 2rem 0;
+}
+
+.author span {
+  font-size: 1.2rem;
+  font-weight: 450;
+}
+
+.column-right .feature-item {
+  border-top: 1px solid lightgrey;
+  display: flex;
+  height: auto;
+  padding: 1rem 0 1rem 1rem;
+  width: auto;
+}
+
+.column-right .image-content {
+  width: 35%;
+}
+
+.column-right .content {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  line-height: 2rem;
+  padding-left: 1rem;
+  width: 65%;
+}
+
+.content h3 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 2rem;
+}
+
+.courses-container {
+  display: flex;
+  position: relative;
+}
+
+#courses {
+  background-color: lightgrey;
+}
+
+#courses,
+#thesis {
+  top: 0rem;
+}
+
+#courses h2,
+#thesis h2 {
+  padding-top: 2rem;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #3c3c3c;
+}
+
+.column-courses {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0 3.5rem;
+  padding: 2rem 1.5rem;
+}
+
+.column-courses .course-item {
+  box-sizing: border-box;
+  flex: auto;
+  padding: 0 1rem 2rem 1rem;
+  width: 30%;
+}
+
+.column-courses .course-item .content {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  line-height: 2rem;
+  padding: 1rem 1rem 1.5rem 1rem;
+}
+
+.course-item .content {
+  height: 140px;
+}
+
+#thesis .column-left p {
+  padding-top: 0.5rem;
+}
+
+#thesis .content {
+  padding-top: 1.5rem;
+}
+
+#thesis .column-right {
+  margin-right: 0.30rem;
+}
+
+#thesis .thesis-item {
+  border-top: none;
+  padding: 1rem 0 1rem 1rem;
+}
+
+.thesis-container {
+  display: flex;
+  position: relative;
+}
+
+video {
+  height: auto;
+  width: 100%;
+}
+
+.thesis-item {
+  display: flex;
+  position: relative;
+}
+
+.column-right .thesis-item {
+  border-top: 1px solid lightgrey;
+  display: flex;
+  height: auto;
+  padding: 1rem 0 1rem 1rem;
+  width: auto;
+}
+
+footer {
+  align-items: center;
+  border-top: 1px solid lightgrey;
+  display: flex;
+  position: relative;
+  width: 100%;
+  z-index: 1
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  border-top: 1px solid lightgrey;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+}
+
+footer .copyright {
+  display: flex;
+  flex-grow: 1;
+  padding: 16px 24px;
+}
+
+footer .terms {
+  display: inline-block;
+  padding-right: 1rem;
+}
+
+.terms span {
+  padding: 2rem 0.5rem;
+}
+
+@media only screen and (max-width: 480px) {
+  html,
+  body {
+    margin: 0;
+    width: auto;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-around;
+    position: static;
+  }
+
+  .logo {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+  .logo img {
+    margin: 0 1.5rem;
+    height: 3rem;
+    width: auto;
+  }
+
+  .desktop-menu {
+    display: none;
+  }
+
+  header nav {
+    padding-right: 1rem;
+  }
+
+  .colmar, .academy {
+    display: none;
+  }
+
+  .mobile-menu ul li {
+    display: inline-block;
+    justify-content: space-around;
+    width: auto;
+  }
+
+  .mobile-menu img {
+    height: 2.5rem;
+    width: auto;
+  }
+
+  #introduction .banner {
+    flex-direction: column;
+  }
+
+  #introduction .column-left {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+
+  #introduction .column-right {
+    padding: 0;
+    width: 100%;
+  }
+
+  .column-right .column-text {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    line-height: 2rem;
+    padding-left: 1rem;
+    width: 70%;
+  }
+
+  #introduction h1 {
+    font-size: 2rem;
+    line-height: normal;
+    margin: 2rem 1rem 0.5rem 0rem;
+  }
+
+  #introduction h3 {
+    font-size: 1.25rem;
+    margin: 0rem 1rem 1rem 0rem;
+  }
+
+  #introduction .button {
+    margin: 1rem 1rem 2rem 0rem;
+    width: auto;
+  }
+
+  #information .banner2 {
+    flex-direction: column;
+  }
+
+  #information .column-left {
+    display: none;
+  }
+
+  #information .column-right {
+    padding: 1rem 0;
+    width: auto;
+  }
+
+  #information .feature-item {
+    flex-direction: column;
+    padding: 1rem 1rem;
+  }
+
+  #information .content {
+    align-self: flex-start;
+    width: auto;
+  }
+
+  #information .image-content {
+    display: none;
+  }
+
+  .mobile-image-content {
+    display: block;
+  }
+
+  .column-courses {
+    flex-direction: column;
+    margin: 1rem 0rem 2rem 0rem;
+    padding: 0 0;
+    width: 100%;
+  }
+
+  .column-courses .course-item {
+    flex: auto;
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+  #courses img,
+  #courses span,
+  #courses p {
+    display: none;
+  }
+
+  #courses {
+    background-color: #FFF8F6;
+  }
+
+  .column-courses .course-item .content {
+    background-color: #d3d3d3;
+    display: flex;
+    height: 40px;
+    padding: 1rem 1rem;
+  }
+
+  #thesis .thesis-container {
+    flex-direction: column;
+    padding: 1rem 0 1.5rem 0;
+  }
+
+  #thesis .column-left {
+    padding: 0;
+    width: auto;
+  }
+
+  #thesis .content, #thesis .column-right {
+    display: none;
+  }
+
+  footer .copyright {
+    padding: 1rem 1rem;
+  }
+
+  footer .terms {
+    display: none;
+  }
+}
